@@ -7,6 +7,7 @@ chardet
 charset-normalizer
 comtypes
 crispy-bootstrap5
+crispy-tailwind
 cryptography
 defusedxml
 distlib
@@ -20,6 +21,7 @@ django-environ
 django-filter
 django-js-asset
 django-multiselectfield
+django-widget-tweaks
 djangorestframework
 env
 environ
