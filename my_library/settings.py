@@ -35,7 +35,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-# CSRF_TRUSTED_ORIGINS = ['https://mamar-bank-uacv.onrender.com','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://my-library-k2mb.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
@@ -104,16 +104,7 @@ DATABASES = {
 
 
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': env("DB_NAME"),
-#         'USER': env("DB_USER"),
-#         'PASSWORD': env("DB_PASSWORD"),
-#         'HOST': env("DB_HOST"),
-#         'PORT': env("DB_PORT"),
-#     }
-# }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
