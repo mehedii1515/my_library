@@ -97,7 +97,7 @@ WSGI_APPLICATION = 'my_library.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://mylibrary_tenm_user:DTQjpNLp6VwjI71lHdMk0sXBzeOsQ695@dpg-cq2q3vbqf0us73d5a3v0-a.oregon-postgres.render.com/mylibrary_tenm',
+        default='postgresql://our_library_user:Xo4EsWm3b7M6usDJI7W6MyeCk6biY4z8@dpg-cq3452ss1f4s73f88h60-a.oregon-postgres.render.com/our_library',
         # conn_max_age=600
     )
 }
